@@ -1,0 +1,90 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+    background: linear-gradient(to right, rgb(89, 3, 91) , rgb(45, 3, 36));
+    color: rgb(242, 233, 233);
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    text-shadow: 10px 10px 20px 1px  rgba(0, 0, 0, 0.21); 
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+form {
+    color: gray;
+    padding-top: 10px;
+}  
+
+input {
+    padding: 10px 80px;
+    border: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px  rgba(0, 0, 0, 0.21);
+}
+ 
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: black;
+    box-shadow: 5px 5px 10px 1px  rgba(0, 0, 0, 0.21);
+    background-color: black;
+    color: rgb(242, 233, 233);
+    
+    margin-left: 10px;
+}
+
+.container {
+    width: 65%;
+    border-radius: 5px;
+    border: black;
+    box-shadow: 5px 5px 10px 10px  rgba(0, 0, 0, 0.21);
+    background-color: transparent;
+    color: rgb(242, 233, 233);
+    display:flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, rgb(131, 6, 133) , rgb(35, 2, 28));
+}
+
+.container-header {
+    width: 30%;  
+}
+
+.container-body {
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.homeImg {
+    width: 100%;
+}
+
+#userAvatar {
+    width: 100%;
+}
+
+.container-footer {
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-footer button {
+   width: 100%;
+   margin:0;
+}
+
+
+
+
+
