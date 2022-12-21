@@ -1,4 +1,3 @@
-
 body {
     display: flex;
     flex-wrap: wrap;
@@ -6,6 +5,9 @@ body {
     gap: 20px;
     background: linear-gradient(to right, rgb(89, 3, 91) , rgb(45, 3, 36));
     color: rgb(242, 233, 233);
+    width: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
 }
 
 .hide {
@@ -14,7 +16,7 @@ body {
 
 h1 {
     text-shadow: 10px 10px 20px 1px  rgba(0, 0, 0, 0.21); 
-    width: 100%;
+    width:80%;
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
@@ -39,7 +41,6 @@ input {
     box-shadow: 5px 5px 10px 1px  rgba(0, 0, 0, 0.21);
     background-color: black;
     color: rgb(242, 233, 233);
-    
     margin-left: 10px;
 }
 
@@ -50,9 +51,9 @@ input {
     box-shadow: 5px 5px 10px 10px  rgba(0, 0, 0, 0.21);
     background-color: transparent;
     color: rgb(242, 233, 233);
+    background: linear-gradient(to right, rgb(131, 6, 133) , rgb(35, 2, 28));
     display:flex;
     flex-wrap: wrap;
-    background: linear-gradient(to right, rgb(131, 6, 133) , rgb(35, 2, 28));
 }
 
 .container-header {
@@ -84,7 +85,44 @@ input {
    margin:0;
 }
 
+#userRepos {
+    padding-top: 20px;
+    width: 35%;
+    border-radius: 5px;
+    border: black;
+    box-shadow: 5px 5px 10px 10px  rgba(0, 0, 0, 0.21);
+    background-color: transparent;
+    color: rgb(242, 233, 233);
+    background: linear-gradient(to right, rgb(131, 6, 133) , rgb(35, 2, 28));
+    list-style: none;
+    height: 200px;
+    overflow-y: auto;
+    font-weight: bold;
+    font-size: 1em; 
+    padding-left: 5px; 
+    text-align: center;
+}
 
+li {
+    padding-left: 0px !important; 
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em !important;
+    background: linear-gradient(to right, rgb(244, 184, 245) , rgb(35, 2, 28));
+}
 
+#userRepos a {
+    color:black;
+    text-decoration: none;
+}
 
+::-webkit-scrollbar {
+    all: unset;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+  }
 
